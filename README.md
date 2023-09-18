@@ -4,6 +4,8 @@ STEP 1: Excel Clean-Up
 
 Deleted the following columns from the dataset: id, ease-ment, apartment number, address, tax class when built, building class when built. 
 
+Changed the datatype of sale_date column to short date. 
+
 Renamed the remaining columns to the following:
 - borough
 - neighborhood
@@ -21,6 +23,7 @@ Renamed the remaining columns to the following:
 - year_built
 - sale_price
 - sale_date
-  
+
+
 
 
