@@ -155,6 +155,8 @@ I used the following query using a LIMIT and OFFSET clause to determine the tax 
 
 ![Screen Shot 2023-09-22 at 2 52 05 PM](https://github.com/JacksonWaddleton/nyc-property-sales/assets/42299047/602f8e59-3b15-46ef-84eb-ae2ee14f6aab)
 
+## Step 3: Visualizating the Data in Tableau
+
 
 ![Screen Shot 2023-09-22 at 2 52 13 PM](https://github.com/JacksonWaddleton/nyc-property-sales/assets/42299047/0df32e90-c4eb-457e-81e1-169595e3d074)
 
