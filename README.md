@@ -1,36 +1,36 @@
 # nyc-property-sales
 
-STEP 1: Excel Clean-Up
+## STEP 1: Excel Data Cleaning
 
-Deleted the following columns from the dataset: id, ease-ment, apartment number, address, tax class when built, building class when built. 
+Deleted the following columns from the dataset: *id, ease-ment, apartment number, address, tax class when built, building class when built*. 
 
 Renamed the remaining columns to the following:
-- borough
-- neighborhood
-- building_class_cat
-- tax_class
-- block
-- lot
-- building_class
-- zip
-- residential_units
-- commercial_units
-- total_units
-- land_sqft
-- gross_sqft
-- year_built
-- sale_price
-- sale_date
+- *borough*
+- *neighborhood*
+- *building_class_cat*
+- *tax_class*
+- *block*
+- *lot*
+- *building_class*
+- *zip*
+- *residential_units*
+- *commercial_units*
+- *total_units*
+- *land_sqft*
+- *gross_sqft*
+- *year_built*
+- *sale_price*
+- *sale_date*
 
-Changed the datatype of sale_date column to short date. 
+Changed the datatype of *sale_date* column to **short date** to help with SQL integration. 
 
-STEP 2: SQL Exploratory Analysis 
+## STEP 2: SQL Exploratory Analysis 
 
 Once the .csv file was finalized with the above Excel edits, I saved the file and imported the dataset into MySQLWorkbench using the Table Data Import Wizard. 
 
 Upon reviewing the remaining data, I formulated ten questions to answer using SQL queries. I was most interested in exploring the differences in real estate among NYC's boroughs. 
 
-QUESTION 1: What are the total number of sales and average sale price in each borough? 
+### QUESTION 1: What are the total number of sales and average sale price in each borough? 
 
 To answer this question, I first created a CASE WHEN clause that named the boroughs according to the numerical code used in the dataset. Naming the boroughs will make the results much more intuitive. 
 
@@ -44,7 +44,7 @@ These results tell us that real estate sales in Manhattan and Brooklyn have a hi
 
 
 
-QUESTION 2: What is the most common building class category in each borough?
+### QUESTION 2: What is the most common building class category in each borough?
 
 Building off the insights learned in Question 1, I wanted to look into what types of buildings were being sold most often within each borough. 
 
@@ -60,7 +60,7 @@ These results tell us that Manhattan is the only borough where one-or-two-family
 
 
 
-QUESTION 3: Which neighborhood contains the property with the highest square footage in the dataset?
+### QUESTION 3: Which neighborhood contains the property with the highest square footage in the dataset?
 
 Next, I wanted to begin looking at interesting individual properties within the dataset, starting with the largest property by square feet. 
 
@@ -73,7 +73,7 @@ The largest property is located in Glen Oaks, with a whopping 3.7 Million square
 
 
 
-QUESTION 4: What is the breakdown of sales by year? 
+### QUESTION 4: What is the breakdown of sales by year? 
 
 Next, I wanted to gain a better sense of the time series over which these sales occurred.
 
@@ -87,7 +87,7 @@ According to these results, all data in this set pertains to 2016 and 2017, with
 
 
 
-QUESTION 5: Display the count of tax class for each building class category. 
+### QUESTION 5: Display the count of tax class for each building class category. 
 
 Next, I wanted to better understand the relationship between the different building classes and tax classes in the data set. 
 
@@ -101,7 +101,7 @@ The results from this query can be used to identify many insights from the data.
 
 
 
-QUESTION 6: How many sales occurred where sales price was over $1,000,000 and gross square feet was less than 5,000.
+### QUESTION 6: How many sales occurred where sales price was over $1,000,000 and gross square feet was less than 5,000.
 
 To further explore trends within the dataset, I wrote a query to find the number of properties with high sale prices and relatively small square footage. 
 
@@ -115,7 +115,7 @@ Surprisingly, there are over 6000 properties in the dataset that fit this criter
 
 
 
-QUESTION 7: How does the proportion of sales within different price ranges compare among the boroughs?
+### QUESTION 7: How does the proportion of sales within different price ranges compare among the boroughs?
 
 To better understand the breakdown of sales within the boroughs, I wrote a query to compare the proportion of sales with different price ranges (e.g., over $10 million, over $5 million, over $1 million, under $500,000, under $300,000, under $100,000) among the boroughs.
 
@@ -127,7 +127,7 @@ This query involved a more complex CASE WHEN clause, which included operations w
 
 
 
-QUESTION 8:  Which sold properties contained over 50 residential and 10 commercial units? 
+### QUESTION 8:  Which sold properties contained over 50 residential and 10 commercial units? 
 
 To learn about the properties within the dataset, I wanted to identify properties that contained a notable level of both residential and commercial units. Question 8 and 9 will address this goal. 
 
@@ -137,7 +137,7 @@ To learn about the properties within the dataset, I wanted to identify propertie
 
 
 
-QUESTION 9: Which sold properties contained over 20 residential and 20 commercial units? 
+### QUESTION 9: Which sold properties contained over 20 residential and 20 commercial units? 
 
 Building off Question 8, I then wrote a query to identify properties with an even higher mixture of residential and commercial units. 
 
@@ -147,7 +147,7 @@ Building off Question 8, I then wrote a query to identify properties with an eve
 
 
 
-QUESTION 10: Which tax class contained the 3rd most sales? 
+### QUESTION 10: Which tax class contained the 3rd most sales? 
 
 Finally, I wanted to explore additional data about the different tax classes in the dataset. 
 
