@@ -173,7 +173,20 @@ Below are the visualizations I created:
 3. **Map of Manhattan sales prices**. This map is organized by zipcode and shows the different average sales prices within Manhattan by zip code.
 4. **Residential Units Built By Year**. This line graph shows trends in residential unit building over time.
 5. **Top 20 Neighborhoods by Total Sales**. This bar chart shows the 20 neighborhoods with the highest number of sales in the data set, along with their borough. Interestingly, all of these neighborhoods are in Queens, Manhattan, and Brooklyn.
-6. **Total Number of Sales Over Time**. This multi-line chart shows the total number of sales across 2016 and 2017 for each borough. 
+6. **Total Number of Sales Over Time**. This multi-line chart shows the total number of sales across 2016 and 2017 for each borough.
+
+Gallery: 
+
+![Screen Shot 2023-09-24 at 4 48 02 PM](https://github.com/JacksonWaddleton/nyc-property-sales/assets/42299047/de6b5585-eb21-4517-a9e5-a93496eda8af)
+
+![Screen Shot 2023-09-24 at 4 48 19 PM](https://github.com/JacksonWaddleton/nyc-property-sales/assets/42299047/756a8eea-bfb2-433d-9c09-5af4840a7b06)
+
+![Screen Shot 2023-09-24 at 4 48 35 PM](https://github.com/JacksonWaddleton/nyc-property-sales/assets/42299047/efaaf38f-8ec8-4980-9d62-81f765139092)
+
+![Screen Shot 2023-09-24 at 4 48 54 PM](https://github.com/JacksonWaddleton/nyc-property-sales/assets/42299047/ba3abc82-8ac9-4f22-adc6-b7c746833f8d)
+
+![Screen Shot 2023-09-24 at 4 49 06 PM](https://github.com/JacksonWaddleton/nyc-property-sales/assets/42299047/9e5decc4-f27a-4d30-9fe8-777eccf36137)
+
 
 
 
