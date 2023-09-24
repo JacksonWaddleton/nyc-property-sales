@@ -1,5 +1,9 @@
 # nyc-property-sales
 
+In this project, I analyzed a Kaggle dataset containing data for property sales in New York during 2016 and 2017. Using Excel, SQL, and Tableau, I cleaned the data set, wrote queries to pull information from the dataset, and created simple visualizations to demonstrate relationships and insights from the data. 
+
+Link to Kaggle dataset: https://www.kaggle.com/datasets/new-york-city/nyc-property-sales
+
 ## STEP 1: Excel Data Cleaning
 
 Deleted the following columns from the dataset: *id, ease-ment, apartment number, address, tax class when built, building class when built*. 
