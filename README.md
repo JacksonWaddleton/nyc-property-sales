@@ -160,5 +160,16 @@ I used the following query using a LIMIT and OFFSET clause to determine the tax 
 
 ## STEP 3: Visualizing the Data in Tableau
 
+Lastly, I created a simple visualization in Tableau to illustrate some interesting findings within the data set. 
+
+Below are the visualizations I created: 
+
+1. **Dashboard** with borough filter (contains three of the following visualizations)
+2. **Average sale price by borough**. This visualization shows the stark difference in Manhattan real estate prices compared to the other boroughs.
+3. **Map of Manhattan sales prices**. This map is organized by zipcode and shows the different average sales prices within Manhattan by zip code.
+4. **Residential Units Built By Year**. This line graph shows trends in residential unit building over time.
+5. **Top 20 Neighborhoods by Total Sales**. This bar chart shows the 20 neighborhoods with the highest number of sales in the data set, along with their borough. Interestingly, all of these neighborhoods are in Queens, Manhattan, and Brooklyn.
+6. **Total Number of Sales Over Time**. This multi-line chart shows the total number of sales across 2016 and 2017 for each borough. 
+
 
 
